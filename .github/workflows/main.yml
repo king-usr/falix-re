@@ -7,7 +7,7 @@ on:
         description: '指定邮箱（留空全部，多个用逗号）'
         required: false
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "11 * * * *"
 
 jobs:
   restart:
